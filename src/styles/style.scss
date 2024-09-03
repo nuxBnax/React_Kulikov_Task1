@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.app {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(247, 199, 251);
+    gap: 10px;
+    padding: 15px;
+    border: 3px solid pink;
+    box-shadow: 10px 10px 10px red;
+    &:hover {
+        box-shadow: none;
+    }
+}
+.name {
+    color: rgb(64, 111, 218);
+}
+.group {
+    color: rgb(47, 109, 61);
+}
+.message {
+    max-width: 200px;
+    text-align: center;
+    color: rgb(253, 39, 57);
+}
